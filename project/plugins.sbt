@@ -2,7 +2,7 @@ addSbtPlugin(("com.lightbend.paradox" % "sbt-paradox"        % "0.9.2").exclude(
 addSbtPlugin(("com.lightbend.paradox" % "sbt-paradox-theme"  % "0.9.2").exclude("com.typesafe.sbt", "sbt-web"))
 addSbtPlugin("com.github.sbt"         % "sbt-web"            % "1.5.8")
 addSbtPlugin(("com.github.sbt"        % "sbt-site-paradox"   % "1.8.0").exclude("com.lightbend.paradox", "sbt-paradox"))
-addSbtPlugin("com.github.sbt"         % "sbt-ghpages"        % "0.9.0")
+addSbtPlugin("com.github.sbt"         % "sbt-ghpages"        % "0.10.0")
 addSbtPlugin("com.github.sbt"         % "sbt-ci-release"     % "1.12.0")
 addSbtPlugin("org.scalameta"          % "sbt-scalafmt"       % "2.6.2")
 addSbtPlugin("com.github.sbt"         % "sbt-github-actions" % "0.31.0")
